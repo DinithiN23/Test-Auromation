@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="33.3" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Saucedemo Checkout Functionality Happy Path" name="Complete Checkout Process" time="32.296">
+<system-out><![CDATA[
+Given I am on the Saucedemo login page......................................passed
+When I login with username "standard_user" and password "secret_sauce"......passed
+Given I am on the Products page.............................................passed
+When I add following items to cart..........................................passed
+And I click the cart button.................................................passed
+Then I should be on the cart page...........................................passed
+Then I should see the selected items in cart................................passed
+When I click the Checkout button............................................passed
+Then I should be on the checkout:your information page......................passed
+And I enter customer information............................................passed
+And I click continue........................................................passed
+Then I should be on Checkout :overview page.................................passed
+And I click finish button...................................................passed
+Then I should be on Checkout: complete page.................................passed
+And I click back home button................................................passed
+Then I should be on Product page again......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
