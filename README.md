@@ -41,9 +41,8 @@ Key Features:
 
    Install dependencies using Maven:
 
-bash
-Copy code
 mvn clean install
+
 Ensure you have the following installed:
 
 JDK 8 or higher 
@@ -63,24 +62,10 @@ Checkout Process:
 Filling out customer information.
 Completing the order.
 
-Directory Structure
-src
-├── main
-│   ├── java
-│   │   └── PoM               # Page Object Model classes
-│   └── resources
-├── test
-│   ├── java
-│   │   ├── steps            # Step Definitions
-│   │   ├── utils            # Utility Classes (e.g., DriverManager)
-│   │   └── TestRunner       # Test Runner Classes
-│   └── resources
-│       └── Features         # Cucumber Feature Files
+
 
 How to Run Tests
 Run All Tests: Execute the test suite using Maven:
-
-bash
 
 mvn test
 Run Specific Feature File: Update the @CucumberOptions in your Test Runner to point to a specific feature file:
